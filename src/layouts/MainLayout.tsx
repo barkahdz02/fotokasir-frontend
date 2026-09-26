@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import {
   LayoutDashboard,
@@ -51,8 +51,8 @@ export default function MainLayout() {
             <Printer className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h1 className="font-bold text-gray-900 leading-tight">FotoKasir</h1>
-            <p className="text-xs text-gray-500">POS Fotocopy & ATK</p>
+            <h1 className="font-bold text-gray-900 leading-tight">Warcil</h1>
+            <p className="text-xs text-gray-500">Fotocopy & ATK</p>
           </div>
         </div>
 

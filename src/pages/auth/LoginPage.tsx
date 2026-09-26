@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -43,8 +43,8 @@ export default function LoginPage() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white shadow-lg mb-4">
             <Printer className="w-8 h-8 text-primary-600" />
           </div>
-          <h1 className="text-3xl font-bold text-white">FotoKasir</h1>
-          <p className="text-primary-100 mt-1">POS Fotocopy & ATK</p>
+          <h1 className="text-3xl font-bold text-white">Warcil</h1>
+          <p className="text-primary-100 mt-1">Fotocopy & ATK</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">
@@ -114,7 +114,7 @@ export default function LoginPage() {
         </div>
 
         <p className="text-center text-xs text-primary-100 mt-6">
-          © 2026 FotoKasir · v0.1.0
+          © 2026 Warcil · v0.1.0
         </p>
       </div>
     </div>

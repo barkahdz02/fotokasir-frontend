@@ -3,7 +3,7 @@ import type { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import type { ApiError } from '../types/api';
 
 // Di dev & production, API diakses via proxy /api (Vite proxy → localhost:3000)
-const API_URL = '/api/v1';
+const API_URL = import.meta.env.VITE_API_URL || '/api/v1';
 
 export const apiClient = axios.create({
   baseURL: API_URL,
